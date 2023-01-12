@@ -23,7 +23,7 @@ Request :
     "id" : "string, unique",
     "name" : "string",
     "price" : "long",
-    "quantity" : "integer"
+    "quantity" : "long"
 }
 ```
 
@@ -37,7 +37,7 @@ Response :
          "id" : "string, unique",
          "name" : "string",
          "price" : "long",
-         "quantity" : "integer",
+         "quantity" : "long",
          "createdAt" : "date",
          "updatedAt" : "date"
      }
@@ -62,7 +62,7 @@ Response :
          "id" : "string, unique",
          "name" : "string",
          "price" : "long",
-         "quantity" : "integer",
+         "quantity" : "long",
          "createdAt" : "date",
          "updatedAt" : "date"
      }
@@ -83,7 +83,7 @@ Request :
 {
     "name" : "string",
     "price" : "long",
-    "quantity" : "integer"
+    "quantity" : "long"
 }
 ```
 
@@ -97,7 +97,7 @@ Response :
          "id" : "string, unique",
          "name" : "string",
          "price" : "long",
-         "quantity" : "integer",
+         "quantity" : "long",
          "createdAt" : "date",
          "updatedAt" : "date"
      }
@@ -126,7 +126,7 @@ Response :
              "id" : "string, unique",
              "name" : "string",
              "price" : "long",
-             "quantity" : "integer",
+             "quantity" : "long",
              "createdAt" : "date",
              "updatedAt" : "date"
         },
@@ -134,7 +134,7 @@ Response :
              "id" : "string, unique",
              "name" : "string",
              "price" : "long",
-             "quantity" : "integer",
+             "quantity" : "long",
              "createdAt" : "date",
              "updatedAt" : "date"
          }
