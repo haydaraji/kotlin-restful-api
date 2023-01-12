@@ -68,7 +68,7 @@ class ProductController(val productService: ProductService) {
         value = ["/api/products"],
         produces = ["application/json"]
     )
-    fun getAllProduct(@RequestParam("page", defaultValue = "1") page: Int,
+    fun getAllProduct(@RequestParam("page", defaultValue = "0") page: Int,
                       @RequestParam("size", defaultValue = "10") size: Int) : WebResponse<List<ProductResponse>> {
         val listProductRequest = ListProductRequest(page=page, size=size)
         val productResponse = productService.getAll(listProductRequest)
